@@ -33,6 +33,13 @@ O projeto apresenta exemplos para comparar os diferentes valores de `display`, f
 - HTML5
 - CSS3
 
+## 🚀 Como executar
+
+Clone o repositório:
+
+```bash
+git clone <https://github.com/MariaClaraCortez/display>
+
 ## 📁 Estrutura do projeto
 
 ```text
