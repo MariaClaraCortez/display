@@ -4,18 +4,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
-.header-container{
-    width: 100vw;
-    height: 200px;
+.container{
+    background-color: #f3f3f346;
+    width: 300px;
+    height: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2c2c2c;
+}
 
+.body-container{
+    background-color: antiquewhite;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+
+
+.header-container{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    
     background-color: darkcyan;
     text-align: center;
 }
-.body-container{
-    background-color: antiquewhite;
-}
+
 
 .header-container a {
     display: inline-block;
@@ -25,4 +42,68 @@
     font-size: x-large;
     text-decoration: none;
     padding: 5px;
+    border-radius: 10px;
 }
+
+.logo{
+    display: flex;
+    width: 700px;
+    height: 100px;
+    background-color: #2c2c2c;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+    background-color: darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* pseudo clase que identifica a poição do cursor do mouse */
+.header-container a:hover{
+    background-color: rgb(136, 136, 228);
+    border: 2px solid rgb(37, 37, 99);
+    color: #fff;
+}
+
+
+
+.section01{
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    padding-left: 20px;
+    color: #000000;
+    
+    /* Borda abraviada */
+    border: 2px solid black;
+    /* border-width: 2px;
+    border-color: black;
+    border-style: solid; */
+}
+
+
+.section01--titulo{
+    margin-bottom: 10px;
+
+}
+
+.link-linsta{
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    font-size: medium;  
+    line-height: 20px;
+}
+
+
+/* display none: nao aparece na tela
+   display in-line: elementos em linhas, não aceita largura e altura (ocupa apenas seu espaço)
+   display block: elementos um abaixo do outro, aceita largura e altura (ocupa a linha inteira)
+   display inline-block:elementos em linha + largura e altura  */
