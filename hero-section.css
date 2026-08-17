@@ -8,39 +8,70 @@
 
 /* estilizar a tag body */
 body{
-    background-color: rgb(206, 236, 247);
+    background-color: rgb(247, 226, 206);
     height: 100vh;
     width: 100vw;
 }
 
 .content-header{
     width: 100%;
-    height: 33%;
-    background-color: lightblue;
+    height: 380px;
+    background-color: rgb(196, 230, 173);
     display: flex;
 
     /* alinhas na vertical */
     align-items: center;
 
-    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
 
 
 }
 
 /* estilizar elemento atraves da classe */
 .banner-header{
-    width: 90%;
-    height: 75%;
-    background-color: rgb(206, 236, 247);
+    width: 1440px;
+    height: 280px;
+    background-color: rgb(247, 206, 231);
+    text-align: center;
 }
 
+.content-main{
+    width: 100%;
+    height: 482px;
+    padding: 30px;
+    border: 2px solid rgb(82, 255, 82);
+    justify-content: center;
+    align-items: center;
+    display: flex;
 
-section div{
+}
+
+.content-hero{
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid;
+    width: 1202px;
+    height: 482px;
+
+}
+
+.box{
+    background-color: azure;
+    width: 356px;
+    height: 482px;
+    border-radius: 12px;
+    border: 2px solid;
+}
+
+/* .content-hero--left, .content-hero--center, .content-hero--right  */
+/* section div{
     width: 20vw;
     height: 50vh;
-    background-color: rgb(143, 79, 79);
+    background-color: lightblue;
     margin: 30px;
     left: 20;
-    display: flex;
-    justify-content: center;
-}
+    border: 2px solid rgb(117, 181, 202);
+} */
