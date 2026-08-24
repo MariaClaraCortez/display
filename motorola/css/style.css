@@ -40,6 +40,9 @@
     color: rgb(153, 222, 235);
 }
 
+.texto_tempo{
+    display: flex;
+}
 article{
     height: 20vh;
     width: 50vw;
