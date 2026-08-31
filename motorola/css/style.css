@@ -19,17 +19,16 @@
 }
 
 .main__imagem{
-    height: 700px;
+    height: 550px;
 }
 
 .main_bateria--tituloss{  
     text-align: left;
-   
 }
 
 .main__bateria--titulo{
     color: #000;
-    font-size: 70px;  
+    font-size: 60px;  
 }
 
 .sup__titulo{
@@ -37,13 +36,20 @@
 }
 
 .main_bateria--subtitulo{
-    color: rgb(153, 222, 235);
+    height: 10vh;
+    width: 10vw;
+    font-weight: 300;
+    color: rgb(153, 209, 235);
 }
 
 .texto_tempo{
     display: flex;
 }
+.texto_sem-fio{
+    height: 10vh;
+    width: 30vw;
+}
 article{
-    height: 20vh;
-    width: 50vw;
+    height: 15vh;
+    width: 12vw;
 }
