@@ -8,13 +8,27 @@
 }
 
 
-.color-section___sidebar{
+.color-section__sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 260px;
+    background-color: var(--ui-bg-sidebar);
+    padding: 30px 20px;
+    border-right: 1px solid var(--ui-border);
 
 }
 
 
 .color-section__title{
-
+    color: var(--ui-text-title);
+    font-size: 20px;
+    /* Peso da fonte: Não utiliza PX */
+    font-weight: 700;
+    margin-bottom: 35px;
+    text-align: center;
+    /* Espaçamento entre as letras */
+    letter-spacing: o.5px;
 }
 
 
@@ -41,25 +55,31 @@
 }
 
 
-.color-section__bar--rgb-1{}
-.color-section__bar--rgb-2{}
-.color-section__bar--rgb-3{}
-.color-section__bar--rgb-4{}
-.color-section__bar--rgb-5{}
-.color-section__bar--rgb-6{}
+.color-section__bar--rgb-1{background-color: var(--color-rgb-1) ;}
+.color-section__bar--rgb-2{background-color: var(--color-rgb-2) ;}
+.color-section__bar--rgb-3{background-color: var(--color-rgb-3) ;}
+.color-section__bar--rgb-4{background-color: var(--color-rgb-4) ;}
+.color-section__bar--rgb-5{background-color: var(--color-rgb-5) ;}
+.color-section__bar--rgb-6{background-color: var(--color-rgb-6) ;}
 
-.color-section__bar--cmyk-1{}
-.color-section__bar--cmyk-2{}
-.color-section__bar--cmyk-3{}
-.color-section__bar--cmyk-4{}
-.color-section__bar--cmyk-5{}
-.color-section__bar--cmyk-6{}
 
-.color-section__bar--netflix-1{}
-.color-section__bar--netflix-2{}
-.color-section__bar--netflix-3{}
 
-.color-section__bar--google-1{}
-.color-section__bar--google-2{}
-.color-section__bar--google-3{}
-.color-section__bar--google-4{}
+.color-section__bar--cmyk-1{background-color: var(--color-cmyk-1) ;}
+.color-section__bar--cmyk-2{background-color: var(--color-cmyk-2) ;}
+.color-section__bar--cmyk-3{background-color: var(--color-cmyk-3) ;}
+.color-section__bar--cmyk-4{background-color: var(--color-cmyk-4) ;}
+.color-section__bar--cmyk-5{background-color: var(--color-cmyk-5) ;}
+.color-section__bar--cmyk-6{background-color: var(--color-cmyk-6) ;}
+
+
+
+.color-section__bar--netflix-1{background-color: var(--color-netflix-1) ;}
+.color-section__bar--netflix-2{background-color: var(--color-netflix-2) ;}
+.color-section__bar--netflix-3{background-color: var(--color-netflix-3) ;}
+
+
+
+.color-section__bar--google-1{background-color: var(--color-google-1) ;}
+.color-section__bar--google-2{background-color: var(--color-google-2) ;}
+.color-section__bar--google-3{background-color: var(--color-google-3) ;}
+.color-section__bar--google-4{background-color: var(--color-google-4) ;}
