@@ -1,5 +1,6 @@
 @import url(/modo_cores/css/reset.css);
 @import url(/modo_cores/css/design-system.css);
+@import url(/modo_cores/css/colors-bars.css);
 
 .color-section{
     display: flex;
@@ -93,32 +94,31 @@ transition: all 0.2s ease-in-out;
     border-radius: 6px;
 }
 
+.color-section__content{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100vh;
+}
 
-.color-section__bar--rgb-1{background-color: var(--color-rgb-1) ;}
-.color-section__bar--rgb-2{background-color: var(--color-rgb-2) ;}
-.color-section__bar--rgb-3{background-color: var(--color-rgb-3) ;}
-.color-section__bar--rgb-4{background-color: var(--color-rgb-4) ;}
-.color-section__bar--rgb-5{background-color: var(--color-rgb-5) ;}
-.color-section__bar--rgb-6{background-color: var(--color-rgb-6) ;}
+.color-section__palette{
+    height: 43%;
+    width: 100%;
+    display: flex;
+}
+
+.color-section__faq{
+    flex-grow: 1;
+    background-color: var(--faq-bg);
+    padding: 35PX 40PX;
+    border-top: 1PX solid var(--ui-border);
+    display: flex;
+    flex-direction: column;
+}
+
+.color-section__faq-title{}
+
+.color-section__faq-item{}
 
 
-
-.color-section__bar--cmyk-1{background-color: var(--color-cmyk-1) ;}
-.color-section__bar--cmyk-2{background-color: var(--color-cmyk-2) ;}
-.color-section__bar--cmyk-3{background-color: var(--color-cmyk-3) ;}
-.color-section__bar--cmyk-4{background-color: var(--color-cmyk-4) ;}
-.color-section__bar--cmyk-5{background-color: var(--color-cmyk-5) ;}
-.color-section__bar--cmyk-6{background-color: var(--color-cmyk-6) ;}
-
-
-
-.color-section__bar--netflix-1{background-color: var(--color-netflix-1) ;}
-.color-section__bar--netflix-2{background-color: var(--color-netflix-2) ;}
-.color-section__bar--netflix-3{background-color: var(--color-netflix-3) ;}
-
-
-
-.color-section__bar--google-1{background-color: var(--color-google-1) ;}
-.color-section__bar--google-2{background-color: var(--color-google-2) ;}
-.color-section__bar--google-3{background-color: var(--color-google-3) ;}
-.color-section__bar--google-4{background-color: var(--color-google-4) ;}
