@@ -111,6 +111,30 @@
     line-height: 20px;
 }
 
+.sumario details{
+    
+    width: 50%;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sumario summary{
+    border: 2px solid #aaa;
+    background: #f0eeee;
+    border-radius: 10px;
+    color: darkcyan;
+    width: 50%;
+    height: 40px;
+    
+}
+
+.sumario p{
+    color: #2c2c2c;
+    line-height: 20px;
+    width: 50%;
+}
+
 
 /* display none: nao aparece na tela
    display in-line: elementos em linhas, não aceita largura e altura (ocupa apenas seu espaço)
