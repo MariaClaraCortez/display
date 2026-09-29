@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt - BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de @media</title>
+
+    <link rel="stylesheet" href="/hub-ia/css/reset.css">
+
+    <style>
+        body{
+        padding: 20px;
+        background-color: olive;
+        color: white;
+        font-family: Arial, sans-serif;
+        height: 300vh;}
+        
+
+        h1{
+            text-align: center;
+            margin-bottom: 20px;}
+
+        .container{
+            flex-wrap: wrap;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+             margin-bottom: 15px;
+        }
+
+        .box{
+
+            width: 100%;
+            max-width: 400px;
+            height: 200px;
+            background-color: black;
+        }
+
+        .container-position{
+            width: 100%;
+            border: 2px solid red;
+            height: 600px;
+            position: relative;
+        }
+
+        .filho-tamanho{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+        }
+
+        .filho01__container-position{
+            top: 0;
+            left: 0;
+        }
+
+        .filho02__container-position{
+            top: 0;
+            right: 0;
+        }
+
+        .filho03__container-position{
+            bottom: 0;
+            left: 0;
+        }
+
+        .filho04__container-position{
+            bottom: 0;
+            right: 0;
+        }
+
+        .whats{
+            width: 75px;
+            height: 75px;
+            background-color: rgb(51, 212, 78);
+            border: 5px solid #fff;
+            border-radius: 50% ;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        .whats img{
+           width: 60px;
+            height: 60px;
+        }
+
+        
+        @media (min-width: 768px) {
+            body{ background-color:blue ;
+               color: white;}
+            .box{max-width: 350px;
+                 /* width: 45%
+                 max-width: 600px*/}}
+
+        @media (min-width:992px){
+             body{ background-color:tan ;
+                color: black;}
+             .box{max-width: 450px;
+                 /* width: 45%
+                 max-width: 600px*/}}
+
+    </style>
+</head>
+<body>
+    <h1>Este é um teste de @media</h1>
+
+    <section class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </section>
+
+    <section class="container-position">
+        <div class="filho01__container-position filho-tamanho"></div>
+        <div class="filho02__container-position filho-tamanho"></div>
+        <div class="filho03__container-position filho-tamanho"></div>
+        <div class="filho04__container-position filho-tamanho"></div>
+    </section>
+
+    <div class="whats">
+        <img src="/hub-ia/img/logotipo-whatsapp.png" alt="logotipo-whatsapp">
+    </div>
+    
+</body>
+</html>
