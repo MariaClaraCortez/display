@@ -125,5 +125,7 @@
 }
 
 @media (min-width: 1024px){
-    
+    .section-ia__container{
+        max-width: 1100px;
+    }
 }
