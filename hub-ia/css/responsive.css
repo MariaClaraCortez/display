@@ -18,6 +18,21 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 4px;
+        padding: 4px;
+    }
+
+    .nav__item{
+        flex: 1 1 calc(33.333% - 6px);
+        text-align: center;
+    }
+
+    .nav__link{
+        width: 100%;
+        font-size: 1.1rem;
+        padding: 6px 4px;
+        display: block;
+        white-space: nowrap;
     }
 
     .section-ia__text{
